@@ -3,15 +3,16 @@ kadai2
 
 # mypkg
 
-## ROS2でBMIを計算してみた
--　
-- BMI = 体重/身長/身長
+## ROS2でBMIの計算を行う
 
--
+- BMI=体重/身長/身長
+
+
 ## 使用した環境
--ROS2 : foxy
--OS : Ubuntu20.04
--言語 : python3.8
+- Raspberry Pi 4 ModelB
+- ROS2 : foxy
+- OS : Ubuntu20.04
+- 言語 : python3.8
 
 ## ROS2のインストールについて
 https://github.com/ryuichiueda/ros2_setup_scripts
@@ -19,19 +20,17 @@ https://github.com/ryuichiueda/ros2_setup_scripts
 ## プログラムの実行方法
 
 スクリプトの置き場は　~/ros2_ws/src/mypkg/mypkg
+
 ```
-$git clone https://github.com/Chanman3/mypkg.git
+$ git clone https://github.com/Chanman3/ros2_BMI.git
 $ chmod +x talker.py
+$ chmod +x listener.py
 $ cd ~/ros2_ws
 $ sudo rosdep install -i --from-path src --rosdistro foxy -y
 $ colcon build
 $ . install/setup.bash
 ```
 
-##スクリプト置き場
-パブリッシャ
-
-サブスクライバ
 
 ## 動画説明
 
