@@ -1,8 +1,6 @@
 # ros2_BMI
 kadai2
 
-# mypkg
-
 ## ROS2でBMIの計算を行う
 
 - BMI=体重/身長/身長
@@ -66,3 +64,5 @@ How tall are you?(m)1.5
 
 
 ## デモ動画
+https://youtu.be/4SXPQ9AWA-k
+
